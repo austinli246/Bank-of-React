@@ -5,14 +5,14 @@ class AccountBalance extends React.Component{
 
 
     render () {
-        let debit = this.props.debit
-        let credit = this.props.credit
-        
+            let balance = this.props.accountBalance
+            let debit = this.props.debit
+            let credit = this.props.credit
           
         return (
                 <div>
                     
-                    Balance:  ${Math.round(credit  - debit)}
+                    Balance:  ${Math.round(balance  + credit  - debit)}
                 
                 </div>
             )

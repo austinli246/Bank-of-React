@@ -65,11 +65,6 @@ class App extends React.Component {
            
         })
         
-        this.setState({ accountBalance: this.state.totalcredit - this.state.totaldebit})
-        console.log("account" ,this.state.accountBalance)
-        console.log(this.state.totalcredit)
-        console.log(this.state.totaldebit)
-       
        
     }).catch (() => console.log("error"))
     axios.get(`https://moj-api.herokuapp.com/credits`) 

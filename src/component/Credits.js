@@ -61,10 +61,7 @@ class Credits extends Component {
                     <button type = "submit" value = "submit" >Add Debit</button>
                 </form>
 
-                    <div className= "negative">
-                       {this.props.message}
-
-                    </div>
+                 
                 
 
              </div>
