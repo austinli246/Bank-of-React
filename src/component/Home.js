@@ -27,6 +27,7 @@ class Home extends Component {
           <br></br>
           Balance: ${Math.round(this.props.accountBalance)}
           
+          
         
           
           

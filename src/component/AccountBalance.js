@@ -12,6 +12,7 @@ class AccountBalance extends React.Component{
         return (
                 <div>
                     
+                    
                     Balance:  ${Math.round(balance  + credit  - debit)}
                 
                 </div>

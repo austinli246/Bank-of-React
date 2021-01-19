@@ -64,6 +64,7 @@ class Debits extends Component {
                     <br></br><br></br>
                     <button type = "submit" value = "submit" >Add Debit</button>
                 </form>
+                
 
            
                 
