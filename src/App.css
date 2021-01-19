@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.debit-text{
+  
+
+  font-size: 0.75rem;
+  display: flex;
+ 
+  justify-content: space-around;
+
+  
+}
+.total-text{
+  
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+   
+  
+  
+}
+.form{
+  font-size: 0.5;
+  margin-left: 50px;
+  text-align: left;
+}
